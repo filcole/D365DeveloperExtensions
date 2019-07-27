@@ -256,7 +256,7 @@
     <value>Missing file</value>
   </data>
   <data name="Message_InvalidWebResourceName" xml:space="preserve">
-    <value>Web resource names may only include letters, numbers, periods, and nonconsecutive forward slash characters</value>
+    <value>Web resource names may only include letters, numbers, periods, dashes and nonconsecutive forward slash characters</value>
   </data>
   <data name="NewWebResource_Prefix_TextBox_Text" xml:space="preserve">
     <value>new_</value>

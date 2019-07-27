@@ -502,7 +502,7 @@ namespace WebResourceDeployer.Crm
         {
             name = name.Trim();
 
-            var r = new Regex("^[a-zA-Z0-9_.\\/]*$");
+            var r = new Regex("^[a-zA-Z0-9_.\\-\\/]*$");
             if (!r.IsMatch(name))
                 return false;
 
